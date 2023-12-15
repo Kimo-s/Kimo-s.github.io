@@ -6,7 +6,15 @@
     body {
         display: inline;
         align-items: flex-start;
+        translate: 50%;
         background-color: rgb(238, 232, 201);
+    }
+
+    .center {
+        margin: auto;
+        width: 50%;
+        border: 3px solid green;
+        padding: 10px;
     }
 
     .avaterImg {
@@ -17,11 +25,13 @@
     }
 
     .flex-container {
-        width: 830px;
-        padding: 2px;
         margin-left: 20px;
         margin-top: 10px;
         align-self: left;
+        margin: auto;
+        width: 50%;
+        border: 3px solid green;
+        padding: 10px;
     }
 
     .flex-container > p {
@@ -47,6 +57,9 @@
 
         <h2>Projects and research:</h2>
             <ul>
+                <li style="font-size: 19px;"> Developed a 3D engine for rigid body simulation that uses GJK 
+                    algorithm for collision detection. Repo link <a target="_blank" href="https://github.com/Kimo-s/Gragzo">here</a>.
+                </li>
                 <li style="font-size: 19px;"> I wrote a numircal solver for time evolution operator of schrodinger equation in 1D. This program allows for 
                     full control over the potential function and intial conditions of the wave function such as the width of gaussian packet or speed.
                     Check out the repo <a target="_blank" href="https://github.com/Kimo-s/One-Dimensional-Schrodinger-Equation-Numerical-Solver">here</a>.
